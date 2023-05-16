@@ -95,6 +95,67 @@ header {
     background-position: center;
     background-repeat: no-repeat;
 }
+html, div {
+    border: solid 1px red;
+ }
+ 
+ .nav-background {
+     background-color: rgb(0, 4, 17, .8)
+ }
+ 
+ 
+ .h1-title {
+     display: flex;
+     justify-content: center;
+     align-items: flex-start;
+     font-size: 8rem;
+     color: rgb(225, 239, 230);
+     margin-top: 4rem;
+    
+ }
+ .links {
+     display: flex;
+     justify-content: space-evenly;
+     
+     
+     
+ }
+ 
+ a {
+     color: rgb(225, 239, 230);
+ }
+ 
+ 
+ .i {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     margin-top: 3rem;
+     margin-bottom: 2rem;
+     
+ }
+ #facebook {
+   margin:0 4rem 0 4rem;
+   color: rgb(225, 239, 230);
+ }
+ #twitter{
+     margin:0 4rem 0 4rem;
+     color:rgb(225, 239, 230);
+   }
+   #instagram {
+     margin:0 4rem 0 4rem;
+     color: rgb(225, 239, 230);
+   }
+ 
+
+ 
+ #nav-bar {
+     display: flex;
+     background-color: rgb(0, 4, 17, .8);
+     align-items: center;
+     flex-direction: column;
+ }
+ 
 
 /* spacer */
 .spacer {
