@@ -49,7 +49,6 @@ table {
 
 * {
     box-sizing: border-box;
-    border:2px solid red;
 }
 
 html {
@@ -87,7 +86,7 @@ p, a {
 /* header section */
 
 html, div {
-    border:2px solid red;
+   border: solid 1px red;
 }
 
 .nav-background {
@@ -101,12 +100,17 @@ html, div {
     align-items: flex-start;
     font-size: 8rem;
     color: rgb(225, 239, 230);
+    margin-top: 4rem;
+   
 }
 .links {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
+    
+    
     
 }
+
 a {
     color: rgb(225, 239, 230);
 }
@@ -116,9 +120,22 @@ a {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: 3rem;
+    margin-bottom: 2rem;
     
 }
-
+#facebook {
+  margin:0 4rem 0 4rem;
+  color: rgb(225, 239, 230);
+}
+#twitter{
+    margin:0 4rem 0 4rem;
+    color:rgb(225, 239, 230);
+  }
+  #instagram {
+    margin:0 4rem 0 4rem;
+    color: rgb(225, 239, 230);
+  }
 
 header {
     width: 100%;
