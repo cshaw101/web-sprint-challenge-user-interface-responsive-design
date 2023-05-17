@@ -92,7 +92,9 @@ html, div {
 .nav-background {
     background-color: rgb(0, 4, 17, .8)
 }
-
+nav {
+    margin-top: 2rem;
+}
 
 .h1-title {
     display: flex;
@@ -174,6 +176,7 @@ h2 {
     height: 100vh;
     text-align: center;
     background-color: rgb(0, 4, 17);
+    
 }
 .mid-section {
     display: flex;
@@ -187,7 +190,7 @@ div.images-1 {
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
-  margin-left: 
+  
 }
 .img-1, .img-2, .img-3, .img-4, .img-5, .img-6, .img-7, .img-8, .img-9 {
     margin: 4rem 4rem;
