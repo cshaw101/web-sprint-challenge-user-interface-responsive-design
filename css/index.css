@@ -86,7 +86,7 @@ p, a {
 /* header section */
 
 html, div {
-    border: solid 1px red;
+   border: 1px solid red;
 }
 
 .nav-background {
@@ -104,11 +104,8 @@ html, div {
    
 }
 .links {
-    display: flex;
-    justify-content: space-evenly;
-    
-    
-    
+  display: flex;
+  justify-content: space-evenly;
 }
 
 a {
@@ -116,15 +113,14 @@ a {
 }
 
 
-.i {
+div.i {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 2rem;
-    margin-bottom: 1rem;
-    
-    
+    margin: 1.8rem 2rem;
 }
+    
+
 #facebook {
   margin:0 4rem 0 4rem;
   color: rgb(225, 239, 230);

@@ -87,16 +87,8 @@ p, a {
 }
 
 /* header section */
-header {
-    width: 100%;
-    height: 100vh;
-    background-image: url('../img/menu-header.jpg');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-}
 html, div {
-    border: solid 1px red;
+    border: 1px solid red;
  }
  
  .nav-background {
@@ -114,11 +106,8 @@ html, div {
     
  }
  .links {
-     display: flex;
-     justify-content: space-evenly;
-     
-     
-     
+   display: flex;
+   justify-content: space-evenly;
  }
  
  a {
@@ -126,14 +115,14 @@ html, div {
  }
  
  
- .i {
-     display: flex;
-     justify-content: center;
-     align-items: center;
-     margin-top: 3rem;
-     margin-bottom: 2rem;
-     
- }
+ div.i {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1.8rem 2rem;
+}
+    
+ 
  #facebook {
    margin:0 4rem 0 4rem;
    color: rgb(225, 239, 230);
@@ -147,7 +136,15 @@ html, div {
      color: rgb(225, 239, 230);
    }
  
-
+ header {
+     width: 100%;
+     height: 100vh;
+     background-image: url('../img/menu-header.jpg');
+     background-size: cover;
+     background-position: center;
+     background-repeat: no-repeat;
+    
+ }
  
  #nav-bar {
      display: flex;
@@ -155,6 +152,7 @@ html, div {
      align-items: center;
      flex-direction: column;
  }
+ 
  
 
 /* spacer */
@@ -211,3 +209,12 @@ footer {
         font-size: 2rem;
     }
 }
+
+
+
+
+
+
+
+
+
