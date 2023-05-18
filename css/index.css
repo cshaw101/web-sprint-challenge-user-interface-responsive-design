@@ -332,8 +332,35 @@ button {
 
 /* mobile media query */
 @media (max-width: 428px) {
+    * {
+        max-width: 100%;
+    }
     /* header section */
+    nav {
+        flex-direction: column;
+        align-items: center;
+        
+
+    }
+  
+
+
+    .h1-title {
+      text-align: center;
+      font-size: 5.5rem;
+        
+    }
+     div.links {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+     }
+    #facebook, #twitter, #instagram {
+        margin:1rem;
+        
+     }
     
+     
 
     /* gallery section */
     .gallery {
@@ -385,4 +412,5 @@ button {
         font-size: 2rem;
 
     }
+   
 }
