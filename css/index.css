@@ -85,9 +85,6 @@ p, a {
 
 /* header section */
 
-html, div {
-   border: 1px solid red;
-}
 
 .nav-background {
     background-color: rgb(0, 4, 17, .8)
